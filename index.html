@@ -3,7 +3,33 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
+      <link href="css/normalize.css" rel="stylesheet" />
+      <link href="css/style.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+      <title>Lesson7</title>
    </head>
-   <body></body>
+   <body>
+      <main class="container">
+         <form class="form">
+            <h3 class="title">Application form</h3>
+            <div class="name">
+               <label for="name">NAME</label>
+               <input type="text" id="name" />
+            </div>
+            <div class="email">
+               <label for="email">E-MAIL</label>
+               <input type="text" id="email" />
+            </div>
+            <div class="tel">
+               <label for="tel">TEL</label>
+               <input type="text" id="tel" />
+            </div>
+            <div class="message">
+               <label for="message">MESSAGE</label>
+               <textarea rows="4" cols="40" id="message"></textarea>
+            </div>
+            <button type="submit">Send</button>
+         </form>
+      </main>
+   </body>
 </html>

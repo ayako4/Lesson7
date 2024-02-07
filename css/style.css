@@ -1,0 +1,58 @@
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "roboto", sans-serif;
+   background-image: url("../images/background.jpg");
+   background-position: center;
+   background-size: 100%;
+   color: #f5f5f5;
+}
+.form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 500px;
+   height: 600px;
+   background-color: #d08585;
+   margin: 113px 0;
+}
+.title {
+   font-size: 32px;
+   color: #0a3448;
+}
+.name,
+.email,
+.tel,
+.message {
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 20px;
+}
+input {
+   width: 400px;
+   border: none;
+   border-bottom: 1px solid #f5f5f5;
+   background: transparent;
+}
+textarea {
+   width: 400px;
+   height: 80px;
+   border: none;
+}
+button {
+   color: #f5f5f5;
+   font-size: 20px;
+   background-color: #306782;
+   border-style: none;
+   width: 100px;
+   height: 40px;
+   border-radius: 4px;
+   cursor: pointer;
+}
+button:hover {
+   color: #d08585;
+   background-color: #f5f5f5;
+}
